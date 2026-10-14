@@ -1,0 +1,16 @@
+[package]
+name = "geekoffee"
+version = "0.1.0"
+edition = "2024"
+description = "KDE tray toggle that keeps the PC from locking or sleeping"
+license = "GPL-3.0-or-later"
+
+[dependencies]
+ksni = "0.3.6"
+resvg = { version = "0.48.1", default-features = false }
+tokio = { version = "1.53.3", features = ["rt", "macros", "signal", "sync"] }
+zbus = { version = "5.19.0", default-features = false, features = ["tokio"] }
+
+[profile.release]
+lto = true
+strip = true

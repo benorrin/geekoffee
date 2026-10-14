@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Geekoffee
+Comment=Keep the PC from locking or sleeping
+Exec=geekoffee
+Icon=geekoffee
+Categories=Utility;
+X-KDE-autostart-after=panel

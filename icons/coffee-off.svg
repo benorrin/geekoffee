@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <g fill="none" stroke="#8b8b8b" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- handle -->
+    <path d="M17 10.5h1.1a2.4 2.4 0 0 1 0 4.8h-1.6"/>
+    <!-- cup -->
+    <path d="M3.5 9h13.5v4.5a5 5 0 0 1-5 5h-3.5a5 5 0 0 1-5-5z"/>
+    <!-- saucer -->
+    <path d="M2.5 21h16"/>
+  </g>
+</svg>
